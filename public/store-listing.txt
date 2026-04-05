@@ -1,0 +1,121 @@
+════════════════════════════════════════
+GOOGLE PLAY STORE LİSTELEME METİNLERİ
+════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🇬🇧 ENGLISH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+APP TITLE (max 30 chars):
+Galya Player – IPTV Streaming
+
+SHORT DESCRIPTION (max 80 chars):
+Stream live TV, movies & series with your own IPTV subscription.
+
+LONG DESCRIPTION:
+Galya Player is a powerful, fast, and beautifully designed IPTV player for Android. Connect your own Xtream API or M3U subscription and enjoy live TV, movies, and series — all in one app.
+
+🎯 BRING YOUR OWN SUBSCRIPTION
+Galya Player is a media player. You bring your Xtream Codes or M3U playlist — we handle the rest. No content is provided by the app.
+
+📺 LIVE TV
+Browse thousands of live channels organized by category. See what's on now with EPG program guide support.
+
+🎬 MOVIES & SERIES
+Access your full VOD library. Browse by genre, search instantly, and pick up where you left off.
+
+⬇️ OFFLINE DOWNLOADS
+Download movies and series episodes for offline viewing. Background downloads run silently with progress notifications.
+
+🎙️ VOICE SEARCH
+Find channels, movies, and series hands-free with built-in voice search.
+
+📡 GOOGLE CAST
+Stream to your TV with one tap using Google Cast support.
+
+👤 MULTIPLE PROFILES
+Create up to 5 profiles for family members. Each profile has its own watchlist, history, and settings.
+
+🧒 KIDS MODE
+Enable Kids Mode on any profile to hide adult categories and restrict content access.
+
+🖼️ PICTURE IN PICTURE
+Keep watching while browsing other apps with PiP mode.
+
+🔒 SECURE & PRIVATE
+Your credentials are encrypted and stored locally on your device. No data is shared with third parties.
+
+⚡ FAST & SMOOTH
+Optimized media player with hardware acceleration, adjustable buffer size, and subtitle support.
+
+━━━━━━━━━━━━━━━━
+SUPPORTED FORMATS
+━━━━━━━━━━━━━━━━
+✓ Xtream Codes / Xtream API
+✓ M3U / M3U8 Playlists
+✓ HLS, RTMP streams
+✓ External subtitle files
+
+━━━━━━━━━━━━━━━━━━
+DISCLAIMER
+━━━━━━━━━━━━━━━━━━
+Galya Player is a media player application only. It does not provide, host, or distribute any television channels, movies, or media content. Users are responsible for ensuring they have legal rights to access the content sources they connect to.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🇹🇷 TÜRKÇE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UYGULAMA ADI (max 30 karakter):
+Galya Player – IPTV Yayın
+
+KISA AÇIKLAMA (max 80 karakter):
+Kendi IPTV aboneliğinle canlı TV, film ve dizi izle.
+
+UZUN AÇIKLAMA:
+Galya Player, Android için güçlü, hızlı ve şık tasarımlı bir IPTV oynatıcıdır. Kendi Xtream API veya M3U aboneliğini bağla — canlı TV, filmler ve dizilerin hepsini tek uygulamada izle.
+
+🎯 KENDİ ABONELİĞİNİ BAĞLA
+Galya Player bir medya oynatıcıdır. Xtream Codes veya M3U playlist'ini sen getirirsin, gerisini uygulama halleder. Uygulama herhangi bir içerik sağlamaz.
+
+📺 CANLI TV
+Kategorilere göre düzenlenmiş binlerce canlı kanalı tara. EPG program rehberi desteğiyle şu anda neyin yayınlandığını gör.
+
+🎬 FİLM & DİZİ
+Tüm VOD kütüphanene eriş. Türe göre tara, anında ara ve kaldığın yerden devam et.
+
+⬇️ OFFLİNE İNDİRME
+Film ve dizi bölümlerini internet olmadan izlemek için indir. Arka planda indirme, bildirim çubuğunda ilerlemeyi gösterir.
+
+🎙️ SESLİ ARAMA
+Yerleşik sesli arama ile kanal, film ve dizileri eller serbest bul.
+
+📡 GOOGLE CAST
+Google Cast desteğiyle tek dokunuşla TV'ye yansıt.
+
+👤 ÇOKLU PROFİL
+Aile üyeleri için 5'e kadar profil oluştur. Her profilin kendi izleme listesi, geçmişi ve ayarları vardır.
+
+🧒 ÇOCUK MODU
+Herhangi bir profilde Çocuk Modunu etkinleştirerek yetişkin kategorilerini gizle ve içerik erişimini kısıtla.
+
+🖼️ PICTURE IN PICTURE
+Başka uygulamalara geçerken PiP moduyla izlemeye devam et.
+
+🔒 GÜVENLİ & GİZLİ
+Giriş bilgilerin şifrelenerek cihazında yerel olarak saklanır. Üçüncü taraflarla veri paylaşılmaz.
+
+⚡ HIZLI & AKICI
+Donanım hızlandırmalı, ayarlanabilir tampon boyutu ve altyazı desteğiyle optimize edilmiş medya oynatıcı.
+
+━━━━━━━━━━━━━━━━
+DESTEKLENEN FORMAT
+━━━━━━━━━━━━━━━━
+✓ Xtream Codes / Xtream API
+✓ M3U / M3U8 Playlist
+✓ HLS, RTMP yayınlar
+✓ Harici altyazı dosyaları
+
+━━━━━━━━━━━━━━━━━━
+SORUMLULUK REDDİ
+━━━━━━━━━━━━━━━━━━
+Galya Player yalnızca bir medya oynatıcı uygulamasıdır. Herhangi bir televizyon kanalı, film veya medya içeriği sağlamaz, barındırmaz veya dağıtmaz. Kullanıcılar, bağlandıkları içerik kaynaklarına yasal erişim haklarına sahip olmaktan sorumludur.
