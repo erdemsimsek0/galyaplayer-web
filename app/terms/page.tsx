@@ -78,7 +78,7 @@ const sections = [
     title: '9. Contact',
     bullets: [
       'Brand Name: Galya Player',
-      'Email: support@galyaplayer.com',
+      'Email: galyaplayer@gmail.com',
       'Package: com.galyaplayer.app',
     ],
   },
