@@ -52,11 +52,12 @@ const sections = [
     ],
   },
   {
-    title: '6. User Controls',
+    title: '6. User Controls and Data Deletion',
     bullets: [
       'Users can remove profiles, history, search history, and certain local app data from within the app.',
       'Users can change or remove login accounts they added.',
       'Users can delete downloaded content and related files.',
+      'Galya Player does not store user data on its own servers. All data is kept on the device only. Uninstalling the app permanently removes all locally stored app data.',
     ],
   },
   {
