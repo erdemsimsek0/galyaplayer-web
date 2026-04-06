@@ -35,10 +35,11 @@ const sections = [
     ],
   },
   {
-    title: '4. Data Sharing',
+    title: '4. Data Sharing and Advertising',
     paragraphs: [
-      'The app is not designed to share user data with advertising networks or general-purpose analytics SDKs.',
       'Account credentials and media links entered by the user are used solely to communicate with the remote services the user chooses to access.',
+      'The app uses Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve ads. This data is processed by Google in accordance with Google\'s Privacy Policy (https://policies.google.com/privacy). Users can opt out of personalized ads through their device settings.',
+      'No other user data is shared with third-party advertising networks or general-purpose analytics SDKs.',
     ],
   },
   {
