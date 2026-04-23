@@ -103,13 +103,13 @@ export default function Home() {
                 className="h-[60px] w-auto"
               />
             </a>
-            <div className="flex justify-center">
+            <div className="flex scale-[0.9] justify-center origin-center">
               <ms-store-badge
                 productid="9PDHP78C6VBV"
                 productname="Galya IPTV Player"
                 window-mode="direct"
                 theme="light"
-                size="small"
+                size="large"
                 language="tr-tr"
                 animation="on"
               />
@@ -227,13 +227,13 @@ export default function Home() {
               />
             </a>
           </div>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-6 flex scale-[0.9] justify-center origin-center">
             <ms-store-badge
               productid="9PDHP78C6VBV"
               productname="Galya IPTV Player"
               window-mode="direct"
               theme="light"
-              size="small"
+              size="large"
               language="tr-tr"
               animation="on"
             />
