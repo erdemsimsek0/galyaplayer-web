@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy – Galya Player',
+  title: 'Privacy Policy - Galya Player',
   description: 'Privacy Policy for Galya Player IPTV streaming application.',
 }
 
@@ -38,7 +38,7 @@ const sections = [
     title: '4. Data Sharing and Advertising',
     paragraphs: [
       'Account credentials and media links entered by the user are used solely to communicate with the remote services the user chooses to access.',
-      'The app uses Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve ads. This data is processed by Google in accordance with Google\'s Privacy Policy (https://policies.google.com/privacy). Users can opt out of personalized ads through their device settings.',
+      "The app uses Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve ads. This data is processed by Google in accordance with Google's Privacy Policy (https://policies.google.com/privacy). Users can opt out of personalized ads through their device settings.",
       'No other user data is shared with third-party advertising networks or general-purpose analytics SDKs.',
     ],
   },
@@ -61,7 +61,7 @@ const sections = [
     ],
   },
   {
-    title: '7. Children\'s Privacy',
+    title: "7. Children's Privacy",
     paragraphs: [
       'Galya Player is a general-purpose media player and is not designed as a standalone service for children. Features such as kids profiles may be offered only to help parents manage access.',
     ],
@@ -79,25 +79,23 @@ const sections = [
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Nav */}
-      <nav className="border-b border-white/5 py-4 px-6">
-        <div className="max-w-4xl mx-auto flex items-center justify-between">
+      <nav className="border-b border-white/5 px-6 py-4">
+        <div className="mx-auto flex max-w-4xl items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-7 h-7 bg-primary rounded flex items-center justify-center text-white font-black text-xs">G</div>
+            <div className="flex h-7 w-7 items-center justify-center rounded bg-primary text-xs font-black text-white">G</div>
             <span className="font-bold">Galya Player</span>
           </Link>
-          <Link href="/" className="text-sm text-gray-400 hover:text-white transition-colors">
-            ← Back to home
+          <Link href="/" className="text-sm text-gray-400 transition-colors hover:text-white">
+            Back to home
           </Link>
         </div>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-6 py-16">
-        {/* Header */}
-        <div className="bg-surface border border-white/10 rounded-2xl p-6 mb-10 flex items-start gap-4">
-          <div className="text-2xl">🛡️</div>
+      <main className="mx-auto max-w-4xl px-6 py-16">
+        <div className="mb-10 flex items-start gap-4 rounded-2xl border border-white/10 bg-surface p-6">
+          <div className="text-lg font-bold text-primary">DATA</div>
           <div>
-            <p className="text-sm text-gray-400 leading-relaxed">
+            <p className="text-sm leading-relaxed text-gray-400">
               Galya Player may store account and playback-related data provided by the user on the device
               in order to operate core app features. The app does not provide content and processes data
               only to work with sources selected by the user.
@@ -105,35 +103,35 @@ export default function PrivacyPage() {
           </div>
         </div>
 
-        <h1 className="text-3xl font-black mb-2">Galya Player Privacy Policy</h1>
-        <p className="text-sm text-gray-500 mb-12">
-          Effective Date: 2026-04-04 &nbsp;·&nbsp; Last Updated: 2026-04-04
+        <h1 className="mb-2 text-3xl font-black">Galya Player Privacy Policy</h1>
+        <p className="mb-12 text-sm text-gray-500">
+          Effective Date: 2026-04-04 | Last Updated: 2026-04-23
         </p>
 
-        <div className="prose prose-invert max-w-none space-y-2">
-          <p className="text-gray-400 leading-relaxed">
+        <div className="space-y-2">
+          <p className="leading-relaxed text-gray-400">
             This Privacy Policy explains what data may be processed when users use Galya Player, why that
             data is used, and what controls users have over their data.
           </p>
-          <p className="text-gray-400 leading-relaxed">
+          <p className="leading-relaxed text-gray-400">
             The app is a media player. Accounts, M3U links, and stream sources added by the user remain
             under the user's control and are used only to provide playback, listing, and related app features.
           </p>
         </div>
 
         <div className="mt-12 space-y-10">
-          {sections.map((s) => (
-            <div key={s.title}>
-              <h2 className="text-lg font-bold mb-4 text-white">{s.title}</h2>
-              {s.paragraphs?.map((p, i) => (
-                <p key={i} className="text-gray-400 text-sm leading-relaxed mb-3">{p}</p>
+          {sections.map((section) => (
+            <div key={section.title}>
+              <h2 className="mb-4 text-lg font-bold text-white">{section.title}</h2>
+              {section.paragraphs?.map((paragraph, index) => (
+                <p key={index} className="mb-3 text-sm leading-relaxed text-gray-400">{paragraph}</p>
               ))}
-              {s.bullets && (
-                <ul className="space-y-2 mt-2">
-                  {s.bullets.map((b, i) => (
-                    <li key={i} className="flex items-start gap-3 text-gray-400 text-sm">
-                      <span className="text-primary mt-0.5">•</span>
-                      <span className="leading-relaxed">{b}</span>
+              {section.bullets && (
+                <ul className="mt-2 space-y-2">
+                  {section.bullets.map((bullet, index) => (
+                    <li key={index} className="flex items-start gap-3 text-sm text-gray-400">
+                      <span className="mt-0.5 text-primary">-</span>
+                      <span className="leading-relaxed">{bullet}</span>
                     </li>
                   ))}
                 </ul>
@@ -143,8 +141,8 @@ export default function PrivacyPage() {
         </div>
       </main>
 
-      <footer className="border-t border-white/5 py-8 px-6 text-center text-sm text-gray-600">
-        © {new Date().getFullYear()} Galya Player · <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+      <footer className="border-t border-white/5 px-6 py-8 text-center text-sm text-gray-600">
+        &copy; {new Date().getFullYear()} Galya Player | <Link href="/terms" className="transition-colors hover:text-white">Terms of Service</Link>
       </footer>
     </div>
   )

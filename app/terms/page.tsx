@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service – Galya Player',
+  title: 'Terms of Service - Galya Player',
   description: 'Terms of Service for Galya Player IPTV streaming application.',
 }
 
@@ -42,7 +42,7 @@ const sections = [
     title: '4. Prohibited Uses',
     bullets: [
       'Using pirated, unlicensed, or illegally obtained content.',
-      'Using another person\'s username, password, or access credentials without authorization.',
+      "Using another person's username, password, or access credentials without authorization.",
       'Attempting to decompile, reverse-engineer, or copy the application source code.',
       'Attempting to circumvent security measures or the license system.',
       'Using automated bots, scripts, spam, or malware.',
@@ -52,14 +52,14 @@ const sections = [
   {
     title: '5. Third-Party Sources',
     paragraphs: [
-      'Galya Player may work with third-party links and services provided or selected by the user — such as M3U playlists, Xtream Codes logins, EPG links, and remote media files. These sources are not under the control of Galya Player.',
-      'Galya Player is not responsible for stream availability, channel list updates, video/audio quality, buffering, credential validity, EPG accuracy, or regional access restrictions imposed by third-party providers.',
+      'Galya Player may work with third-party links and services provided or selected by the user, such as M3U playlists, Xtream Codes logins, EPG links, and remote media files. These sources are not under the control of Galya Player.',
+      'Galya Player is not responsible for stream availability, channel list updates, video or audio quality, buffering, credential validity, EPG accuracy, or regional access restrictions imposed by third-party providers.',
     ],
   },
   {
     title: '6. Disclaimer of Warranties',
     paragraphs: [
-      'The application is provided "as is" without warranties of any kind, express or implied. We do not guarantee uninterrupted or error-free operation of the app or compatibility with all devices and Android versions.',
+      'The application is provided "as is" without warranties of any kind, express or implied. We do not guarantee uninterrupted or error-free operation of the app or compatibility with all supported devices and platforms.',
     ],
   },
   {
@@ -87,25 +87,23 @@ const sections = [
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Nav */}
-      <nav className="border-b border-white/5 py-4 px-6">
-        <div className="max-w-4xl mx-auto flex items-center justify-between">
+      <nav className="border-b border-white/5 px-6 py-4">
+        <div className="mx-auto flex max-w-4xl items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-7 h-7 bg-primary rounded flex items-center justify-center text-white font-black text-xs">G</div>
+            <div className="flex h-7 w-7 items-center justify-center rounded bg-primary text-xs font-black text-white">G</div>
             <span className="font-bold">Galya Player</span>
           </Link>
-          <Link href="/" className="text-sm text-gray-400 hover:text-white transition-colors">
-            ← Back to home
+          <Link href="/" className="text-sm text-gray-400 transition-colors hover:text-white">
+            Back to home
           </Link>
         </div>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-6 py-16">
-        {/* Header */}
-        <div className="bg-surface border border-white/10 rounded-2xl p-6 mb-10 flex items-start gap-4">
-          <div className="text-2xl">📋</div>
+      <main className="mx-auto max-w-4xl px-6 py-16">
+        <div className="mb-10 flex items-start gap-4 rounded-2xl border border-white/10 bg-surface p-6">
+          <div className="text-lg font-bold text-primary">INFO</div>
           <div>
-            <p className="text-sm text-gray-400 leading-relaxed">
+            <p className="text-sm leading-relaxed text-gray-400">
               Galya Player is a media player only. It does not provide, sell, or host any content.
               Users are solely responsible for ensuring they have legal rights to access the sources
               they connect to.
@@ -113,34 +111,34 @@ export default function TermsPage() {
           </div>
         </div>
 
-        <h1 className="text-3xl font-black mb-2">Terms of Service</h1>
-        <p className="text-sm text-gray-500 mb-12">
-          Effective Date: 2026-04-04 &nbsp;·&nbsp; Last Updated: 2026-04-04
+        <h1 className="mb-2 text-3xl font-black">Terms of Service</h1>
+        <p className="mb-12 text-sm text-gray-500">
+          Effective Date: 2026-04-04 | Last Updated: 2026-04-23
         </p>
 
-        <div className="space-y-2 mb-12">
-          <p className="text-gray-400 leading-relaxed text-sm">
+        <div className="mb-12 space-y-2">
+          <p className="text-sm leading-relaxed text-gray-400">
             These Terms of Service apply to all users of the Galya Player application and related services.
           </p>
-          <p className="text-gray-400 leading-relaxed text-sm">
+          <p className="text-sm leading-relaxed text-gray-400">
             By downloading, installing, or using the app you confirm that you have read and accepted
             these terms. If you do not agree, do not use the app.
           </p>
         </div>
 
         <div className="space-y-10">
-          {sections.map((s) => (
-            <div key={s.title}>
-              <h2 className="text-lg font-bold mb-4 text-white">{s.title}</h2>
-              {s.paragraphs?.map((p, i) => (
-                <p key={i} className="text-gray-400 text-sm leading-relaxed mb-3">{p}</p>
+          {sections.map((section) => (
+            <div key={section.title}>
+              <h2 className="mb-4 text-lg font-bold text-white">{section.title}</h2>
+              {section.paragraphs?.map((paragraph, index) => (
+                <p key={index} className="mb-3 text-sm leading-relaxed text-gray-400">{paragraph}</p>
               ))}
-              {s.bullets && (
-                <ul className="space-y-2 mt-2">
-                  {s.bullets.map((b, i) => (
-                    <li key={i} className="flex items-start gap-3 text-gray-400 text-sm">
-                      <span className="text-primary mt-0.5">•</span>
-                      <span className="leading-relaxed">{b}</span>
+              {section.bullets && (
+                <ul className="mt-2 space-y-2">
+                  {section.bullets.map((bullet, index) => (
+                    <li key={index} className="flex items-start gap-3 text-sm text-gray-400">
+                      <span className="mt-0.5 text-primary">-</span>
+                      <span className="leading-relaxed">{bullet}</span>
                     </li>
                   ))}
                 </ul>
@@ -150,8 +148,8 @@ export default function TermsPage() {
         </div>
       </main>
 
-      <footer className="border-t border-white/5 py-8 px-6 text-center text-sm text-gray-600">
-        © {new Date().getFullYear()} Galya Player · <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+      <footer className="border-t border-white/5 px-6 py-8 text-center text-sm text-gray-600">
+        &copy; {new Date().getFullYear()} Galya Player | <Link href="/privacy" className="transition-colors hover:text-white">Privacy Policy</Link>
       </footer>
     </div>
   )
