@@ -98,8 +98,8 @@ export default function Home() {
               className="inline-flex items-center justify-center"
             >
               <img
-                src="/badges/google-play-tr.svg"
-                alt="Google Play'den edinin"
+                src="/badges/google-play-en.svg"
+                alt="Get it on Google Play"
                 className="h-[60px] w-auto"
               />
             </a>
@@ -221,8 +221,8 @@ export default function Home() {
               className="inline-flex items-center justify-center"
             >
               <img
-                src="/badges/google-play-tr.svg"
-                alt="Google Play'den edinin"
+                src="/badges/google-play-en.svg"
+                alt="Get it on Google Play"
                 className="h-[60px] w-auto"
               />
             </a>
