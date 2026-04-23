@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Script from 'next/script'
 
 const googlePlayUrl = 'https://play.google.com/store/apps/details?id=com.galyaplayer.app'
 const microsoftStoreUrl = 'https://apps.microsoft.com/detail/9pdhp78c6vbv?hl=en-US&gl=SA'
@@ -64,6 +65,12 @@ const platforms = [
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Script
+        type="module"
+        src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"
+        strategy="afterInteractive"
+      />
+
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <div className="flex items-center gap-2">
@@ -109,6 +116,17 @@ export default function Home() {
                 {platform.label}
               </a>
             ))}
+            <div className="flex justify-center">
+              <ms-store-badge
+                productid="9PDHP78C6VBV"
+                productname="Galya IPTV Player"
+                window-mode="direct"
+                theme="light"
+                size="large"
+                language="tr-tr"
+                animation="on"
+              />
+            </div>
             <a
               href="#features"
               className="inline-flex items-center gap-2 px-4 py-4 font-medium text-gray-400 transition-colors hover:text-white"
@@ -219,6 +237,17 @@ export default function Home() {
                 {platform.label}
               </a>
             ))}
+          </div>
+          <div className="mt-6 flex justify-center">
+            <ms-store-badge
+              productid="9PDHP78C6VBV"
+              productname="Galya IPTV Player"
+              window-mode="direct"
+              theme="light"
+              size="large"
+              language="tr-tr"
+              animation="on"
+            />
           </div>
         </div>
       </section>
