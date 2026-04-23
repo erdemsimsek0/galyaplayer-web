@@ -47,21 +47,6 @@ const features = [
   },
 ]
 
-const platforms = [
-  {
-    name: 'Google Play',
-    href: googlePlayUrl,
-    label: 'Google Play',
-    tone: '',
-  },
-  {
-    name: 'Microsoft Store',
-    href: microsoftStoreUrl,
-    label: 'Download for Windows',
-    tone: 'bg-white text-black hover:bg-neutral-200',
-  },
-]
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -105,41 +90,26 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap">
-            {platforms.map((platform) => (
-              platform.name === 'Google Play' ? (
-                <a
-                  key={platform.name}
-                  href={platform.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Get it on Google Play"
-                  className="inline-flex items-center justify-center"
-                >
-                  <img
-                    src="/badges/google-play-tr.svg"
-                    alt="Google Play'den edinin"
-                    className="h-[60px] w-auto"
-                  />
-                </a>
-              ) : (
-                <a
-                  key={platform.name}
-                  href={platform.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex min-w-[220px] items-center justify-center rounded-xl px-8 py-4 text-base font-bold transition-colors ${platform.tone}`}
-                >
-                  {platform.label}
-                </a>
-              )
-            ))}
+            <a
+              href={googlePlayUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get it on Google Play"
+              className="inline-flex items-center justify-center"
+            >
+              <img
+                src="/badges/google-play-tr.svg"
+                alt="Google Play'den edinin"
+                className="h-[60px] w-auto"
+              />
+            </a>
             <div className="flex justify-center">
               <ms-store-badge
                 productid="9PDHP78C6VBV"
                 productname="Galya IPTV Player"
                 window-mode="direct"
                 theme="light"
-                size="large"
+                size="small"
                 language="tr-tr"
                 animation="on"
               />
@@ -243,34 +213,19 @@ export default function Home() {
             Download Galya Player on Android or Windows and connect your IPTV subscription today.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap">
-            {platforms.map((platform) => (
-              platform.name === 'Google Play' ? (
-                <a
-                  key={platform.name}
-                  href={platform.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Get it on Google Play"
-                  className="inline-flex items-center justify-center"
-                >
-                  <img
-                    src="/badges/google-play-tr.svg"
-                    alt="Google Play'den edinin"
-                    className="h-[60px] w-auto"
-                  />
-                </a>
-              ) : (
-                <a
-                  key={platform.label}
-                  href={platform.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex min-w-[220px] items-center justify-center rounded-xl px-8 py-4 text-base font-bold transition-colors ${platform.tone}`}
-                >
-                  {platform.label}
-                </a>
-              )
-            ))}
+            <a
+              href={googlePlayUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get it on Google Play"
+              className="inline-flex items-center justify-center"
+            >
+              <img
+                src="/badges/google-play-tr.svg"
+                alt="Google Play'den edinin"
+                className="h-[60px] w-auto"
+              />
+            </a>
           </div>
           <div className="mt-6 flex justify-center">
             <ms-store-badge
@@ -278,7 +233,7 @@ export default function Home() {
               productname="Galya IPTV Player"
               window-mode="direct"
               theme="light"
-              size="large"
+              size="small"
               language="tr-tr"
               animation="on"
             />
